@@ -1,0 +1,40 @@
+BENGALURU URBAN–CROPLAND THERMAL CONTRAST: UNCERTAINTY ANALYSIS
+========================================================================
+Input file: Bengaluru_SUHI_Intensity_2021_2025.csv
+Valid acquisitions: 115
+Unique product IDs: 115
+Date range: 2021-01-13 to 2025-12-26
+Rows dropped for invalid/missing required fields: 0
+Maximum formula discrepancy: 0.00000000 °C
+Minimum valid pixels per zone: 1000
+
+OVERALL DESCRIPTIVE SUMMARY
+Mean urban-minus-cropland contrast: -1.3414 °C
+Median: -1.5841 °C
+Standard deviation: 2.2697 °C
+Minimum / maximum: -5.3891 / 3.9221 °C
+Positive acquisitions: 34 (29.6%)
+Negative acquisitions: 81 (70.4%)
+Zero acquisitions: 0
+Wilson 95% interval for positive proportion: [0.220, 0.385]
+Wilson 95% interval for negative proportion: [0.615, 0.780]
+
+MEAN CONTRAST: 95% RESAMPLING INTERVALS
+IID bootstrap: [-1.7563, -0.9372] °C
+Moving-block bootstrap, block=3 acquisitions: [-1.9780, -0.7039] °C
+Moving-block bootstrap, block=5 acquisitions: [-2.0987, -0.5836] °C
+Moving-block bootstrap, block=7 acquisitions: [-2.1606, -0.4997] °C
+IID bootstrap median interval: [-1.9260, -0.9217] °C
+
+ACQUISITION TIMING
+Median gap between acquisitions: 8.0 days
+Maximum gap between acquisitions: 168.0 days
+
+INTERPRETATION AND LIMITATIONS
+The IID bootstrap treats acquisitions as independent and may understate uncertainty if nearby dates are temporally dependent.
+The moving-block bootstrap resamples contiguous chronological groups of acquisitions to retain some short-range dependence.
+Block lengths of 3, 5 and 7 acquisitions are sensitivity checks, not a definitive model of temporal dependence.
+These intervals describe uncertainty across the retained daytime Landsat acquisitions under the fixed reference zones.
+They are not spatial confidence intervals, do not establish causality, and do not measure near-surface air-temperature UHI.
+Monthly and annual estimates are descriptive because sampling is uneven across months and years.
+A confidence interval entirely below zero would indicate a consistently negative mean under that resampling design; it would not prove Bengaluru has no atmospheric UHI.

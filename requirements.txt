@@ -1,0 +1,14 @@
+
+streamlit
+streamlit-folium
+folium
+branca
+pandas
+numpy
+scikit-learn
+joblib
+plotly
+rasterio
+matplotlib
+shap
+Pillow

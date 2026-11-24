@@ -1,0 +1,2 @@
+model,training_rows_used_for_final_model,test_rows,RMSE_C,MAE_C,R2
+Random Forest,239325,45420,1.874315312352603,1.4303880202337083,0.8821700716730783

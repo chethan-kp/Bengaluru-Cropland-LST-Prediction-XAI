@@ -1,0 +1,2 @@
+prediction_year,acquisition_date,satellite,valid_pixels,excluded_invalid_ndvi_pixels,observed_mean_LST_C,predicted_mean_LST_C,predicted_min_LST_C,predicted_max_LST_C,RMSE_C,MAE_C,R2,mean_residual_C
+2026,2026-11-03,Landsat 9,169875,25,32.5827522277832,33.74740219116211,27.53234100341797,37.809871673583984,4.537848357812969,3.5003597736358643,0.05360674858093262,-1.1646515130996704

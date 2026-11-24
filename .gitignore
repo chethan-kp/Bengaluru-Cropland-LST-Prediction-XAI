@@ -1,0 +1,84 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Archives and backups
+*.zip
+*backup*
+
+# Ignore all saved models except the final baseline
+*.joblib
+!Bengaluru_UHI_Best_Baseline_Model.joblib
+
+# Intermediate datasets
+Bengaluru_UHI_Clean_2021_2025.csv
+Bengaluru_UHI_Combined_2021_2025.csv
+Bengaluru_UHI_Corrected_Combined_2021_2025.csv
+Bengaluru_UHI_Spatial_Split_2021_2025.csv
+Bengaluru_UHI_Temporal_Split_2021_2025.csv
+Bengaluru_UHI_Scene_Split_2021_2025.csv
+Bengaluru_UHI_Scene_Split_By_Year_2021_2025.csv
+
+# Intermediate predictions
+Bengaluru_UHI_*_Predictions.csv
+Bengaluru_UHI_Test_Predictions.csv
+Bengaluru_Pixel_Samples_*.csv
+
+# Temporary dashboard outputs
+Dashboard_Inference_Smoke_Test.csv
+Dashboard_Model_Inspection.txt
+Dashboard_Asset_Check.txt
+
+# Temporary audit reports
+Bengaluru_UHI_Audit_Summary.txt
+Bengaluru_UHI_Cleaning_Report.txt
+Bengaluru_UHI_Corrected_Audit_Report.txt
+Bengaluru_UHI_Model_Run_Audit.json
+Bengaluru_UHI_Controlled_Ablation_Audit.json
+Bengaluru_UHI_Scene_Model_Audit.json
+Bengaluru_UHI_Temporal_Run_Audit.json
+
+# Intermediate diagnostic datasets
+Bengaluru_UHI_Ablation_Test.csv
+Bengaluru_UHI_Ablation_Validation.csv
+Bengaluru_UHI_Corrected_Flagged_Rows.csv
+Bengaluru_UHI_Corrected_Sample_Counts_By_Date.csv
+Bengaluru_UHI_Deduplicated_Counts_By_Date.csv
+Bengaluru_UHI_Exact_Duplicate_Copies.csv
+Bengaluru_UHI_Excluded_*.csv
+Bengaluru_UHI_Flagged_Rows.csv
+Bengaluru_UHI_Sample_Counts_By_Date.csv
+Bengaluru_UHI_Scene_Ablation_*.csv
+Bengaluru_UHI_Scene_Overlap_Audit.csv
+Bengaluru_UHI_Scene_Conditions_Audit.csv
+SUHI_Pixel_Coverage_By_Scene.csv
+SUHI_Pixel_Coverage_Check.txt
+SUHI_Sensitivity_Input_Inventory.txt
+SUHI_Source_Column_Check.txt
+
+# Temporary inspection scripts
+audit_*.py
+check_*.py
+inspect_*.py
+test_*.py
+
