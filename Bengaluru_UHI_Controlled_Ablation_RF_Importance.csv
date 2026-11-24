@@ -1,0 +1,17 @@
+feature_set,feature,importance
+Full model,NDVI,0.041611761835897904
+Full model,NDMI,0.09439186918815143
+Full model,builtup_fraction_500m_2021,0.018363898755420383
+Full model,elevation_m,0.025426475250407504
+Full model,year,0.03373075969564036
+Full model,doy_sin,0.6661070246138224
+Full model,doy_cos,0.12036821066066006
+Without day-of-year,NDVI,0.5200597221225225
+Without day-of-year,NDMI,0.2410305584198062
+Without day-of-year,builtup_fraction_500m_2021,0.08678616434599638
+Without day-of-year,elevation_m,0.074887927241279
+Without day-of-year,year,0.07723562787039585
+Environmental only,NDVI,0.5866175256456351
+Environmental only,NDMI,0.2538777421865631
+Environmental only,builtup_fraction_500m_2021,0.08849744714932119
+Environmental only,elevation_m,0.07100728501848072

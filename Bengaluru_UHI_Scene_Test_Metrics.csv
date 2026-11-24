@@ -1,0 +1,2 @@
+model,training_plus_validation_rows,test_rows,test_scenes,samples,RMSE_C,MAE_C,R2,mean_error_C
+Linear Regression,236621,48124,12,48124,3.887130721575178,3.0795112234678808,0.6243731174082622,1.340051491932357
